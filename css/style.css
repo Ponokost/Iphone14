@@ -44,8 +44,89 @@ body {
 
 .menu {
   display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.phone {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
 }
 
 .menu-item {
   padding-right: 30px;
+}
+
+/* .menu-item:last-child {
+  padding-right: 0px;
+} */
+
+.headline {
+  background-color: #F5F5F7;
+  text-align: center;
+  padding: 70px 0px 40px;
+}
+
+.title {
+  color: #490E84;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+.headline-img {
+  margin-bottom: 25px;
+}
+
+.headline-btn {
+  background-color: #490E84;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  padding: 020px 0120px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+
+}
+
+.new {
+  padding: 90px 0 150px;
+}
+
+.new-title {
+  color: #717171;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 0px 0px 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.new-info {
+  display: flex;
+  align-items: center;
+}
+
+.new-text p {
+  max-width: 560px;
+  margin: 0 0 30px;
+}
+
+.new-text b {
+  display: block;
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 26px;
+
+}
+
+.images-new {
+  margin-left: 190px;
 }
